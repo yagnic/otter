@@ -110,7 +110,7 @@ elif page == "About Me":
     st.write("[GitHub](https://github.com/)")
     st.write("[LinkedIn](https://www.linkedin.com/in/amitha-s983)")
 
-    st.markdown("[Download Resume PDF](./otter.pdf)")
+    st.markdown("[Download Resume PDF](https://drive.google.com/file/d/1yS3Igfnp1U9cQOvU60Pi5vWhGcsKMsh_/view?usp=sharing)")
     # Showcase your resume (assuming the resume.pdf file is in the same directory)
 
 # Add additional sections and functionalities as needed
