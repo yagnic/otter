@@ -166,7 +166,7 @@ elif page == "Code Editor":
                 
 elif page == "Apply for Jobs":
     st.title("Apply for Jobs")
-    st.sidebar.subheader("Add LinkedIn Job Links")
+
     
     job_links= {"Trinity Life Sciences": "https://www.linkedin.com/jobs/view/3756323371", "Citibank": "https://www.linkedin.com/jobs/view/3725424645"}
     
