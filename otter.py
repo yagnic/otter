@@ -19,7 +19,7 @@ st.set_page_config(
 
 # Define the sidebar
 st.sidebar.header("Menu")
-page = st.sidebar.radio("Go to", ["Overview","Code Editor", "Projects"])
+page = st.sidebar.radio("Go to", ["Overview","Code Editor", "Projects", "Apply for Jobs"])
 
 # Define code editor placeholder
 
@@ -162,6 +162,23 @@ elif page == "Code Editor":
             except Exception as e:
                 # Display any error messages
                 st.error(f"An error occurred: {e}")
+                
+                
+elif page == "Apply for Jobs":
+    st.title("Apply for Jobs")
+    st.sidebar.subheader("Add LinkedIn Job Links")
+    
+    job_links= {"Trinity Life Sciences": "https://www.linkedin.com/jobs/view/3756323371", "Citibank": "https://www.linkedin.com/jobs/view/3725424645"}
+    
+
+  
+    
+    # Display added job links
+    if job_links:
+        st.write("### LinkedIn Job Links:")
+        for company,link in job_links.items():
+            st.write(company)
+            st.markdown(f"- [{link}]({link})")
 
 	
 
