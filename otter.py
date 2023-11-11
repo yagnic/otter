@@ -83,7 +83,7 @@ if page == "Overview":
     
 
     st.write("### Connect with Me")
-    st.write("[GitHub](https://github.com/)")
+    st.write("[GitHub](https://github.com/amithas4)")
     st.write("[LinkedIn](https://www.linkedin.com/in/amitha-s983)")
 
     st.markdown("[Download Resume PDF](https://drive.google.com/file/d/1yS3Igfnp1U9cQOvU60Pi5vWhGcsKMsh_/view?usp=sharing)")
