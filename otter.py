@@ -168,7 +168,7 @@ elif page == "Apply for Jobs":
     st.title("Apply for Jobs")
 
     
-    job_links= {"Trinity Life Sciences": "https://www.linkedin.com/jobs/view/3756323371", "Citibank": "https://www.linkedin.com/jobs/view/3725424645"}
+    job_links= {"Trinity Life Sciences": "https://www.linkedin.com/jobs/view/3756323371", "Citibank": "https://www.linkedin.com/jobs/view/3725424645", "Nvidia":"https://lnkd.in/gTz9a93y"}
     
 
   
